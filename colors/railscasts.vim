@@ -71,7 +71,7 @@ hi link Number String
 hi PreProc                   guifg=#E6E1DC ctermfg=103
 hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
 hi IncSearch                 guifg=White   guibg=Black ctermfg=White ctermbg=Black
-hi Title                     guifg=#FFFFFF ctermfg=15
+hi Title                     guifg=#FFFFFF gui=bold ctermfg=15 cterm=bold
 hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
 
