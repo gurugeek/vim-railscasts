@@ -123,3 +123,7 @@ hi Pmenu                     guifg=#F6F3E8 guibg=#444444 gui=NONE ctermbg=238 ct
 hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE ctermfg=150 ctermfg=Black
 hi PMenuSbar                 guibg=#5A647E gui=NONE ctermbg=66  cterm=NONE
 hi PMenuThumb                guibg=#AAAAAA gui=NONE ctermbg=248 cterm=NONE
+
+if exists('+colorcolumn')                                                     
+  highlight ColorColumn ctermbg=233 guibg=#121212                           
+endif
